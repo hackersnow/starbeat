@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+   
+
+    <script src="js/jquery.min.js"></script>
+    
+   
+    
+<style>
+    .btn_form{
+        text-decoration: none;
+        color: white;
+    }
+</style>
+   
+</head>
+<body>
+
+    <div class="container-fluid log_conatainer start_beat_ter_img desbord_contenter">
+        <div class="row ">
+            <div class="col-xl-8 col-lg-8 col-md-6">
+                <div class="img_log_conta ">
+                    <img src="image/SVG/Login Page Image.svg">
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 m-0 p-0">
+                <div class="log_fomr_box">
+
+                    <div class="fomr_con_inner">
+                        <img src="image/SVG/Star Beat Logo.svg">
+                        <h4>Log in</h4>
+                        <span>to Creators First Social Platform</span>
+
+                        <form >
+                               <div class="inpu_box inpu_log">
+                                <input type="email" id="txtEmail_log" required="required"/>
+                                <label>Email</label>
+                                <small>Error Message</small>
+                                </div>
+
+                                <div class="inpu_box inpu_log">
+                                    <input type="password" id="txtPwd_log" required="required"/>
+                                    <label>Password</label>
+                                    <small>Error Message</small>
+                                    <i class="fa fa-eye" id="eye3" onclick="hide_btn3()"></i>
+                                </div>
+
+                                <button type="submit"  class=" btn_form btn_form_2" onclick="validateInput2()">
+                                    <a href="desboard.html"
+                                    class="btn_form "> Login to Continue</a>
+                               
+                                </button>
+                                <span class="dod_lo">Don't have an account? <a href="#">Register here</a></span>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script src="js/custom.js"> -->
+    </script>
+</body> 
+</html>

@@ -1,0 +1,417 @@
+@media screen and (max-width : 991px){
+
+    .menu_icons{
+        display: block;
+    }
+    .menu_icons i{
+        font-size: 24px;
+        margin-left: 20px;
+    }
+
+    .icons{
+        left: 38px;
+    }
+    .des_left{
+        width: 24rem;
+        height: 100vh;
+        background: transparent;
+        padding: 15px;
+        
+      }
+
+      .sides{
+        padding: 20px 0px;
+        background: #fff;
+        margin: 30px 0px !important;
+        border-radius: 10px;
+      
+      }
+    
+
+    .headers{ 
+        padding: 0px 15px;
+    }
+    .menu{
+        display: block;
+        z-index: 888889;
+        
+    }
+    .menuToggle span{
+        background: #000;
+    }
+    .navs{
+      
+       background: #fff;
+       height: 0vh;
+       overflow: hidden;
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       width: 100%;
+       z-index: 88888;
+       transition: all 0.5s;
+
+    }
+    .navs ul{
+        width: 100%;
+        height: 100%;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+    }
+    .navs ul li{
+        margin: 10px 0px;
+    }
+    .navs ul li a{
+        color: #000;
+     }
+
+     .navs ul li a img{
+        width: 22px;
+        filter: none;
+     
+     }
+
+     .menuToggleN{
+         height: 100vh;
+        
+     }
+
+    
+
+     .hide_col{
+        display: none;
+     }
+     .self-Container, .self-Container2{
+       width: 100%;
+       height: 100%;
+       
+     }
+   
+     .most_recent_container{
+       flex-direction: column;
+     }
+   
+     .most_re_content{
+       padding: 10px 0px;
+     }
+
+
+
+    
+     .right_side h4{
+        margin: 0px 25px;
+        font-size: 16px;
+        margin-bottom: 0px;
+        display: none;
+      }
+      
+      .icon_hedd {
+        font-size: 18px;
+        color: rgb(219, 219, 219);
+      
+        padding: 8px  20px;
+      
+    }
+
+    .header_container {
+       
+        padding: 0px  30px !important;
+    }
+
+    .ser_bar input{
+        width: 280px;
+        padding: 10px 20px;
+        padding-left: 45px;
+        background: #f7f7f9;
+        border: none;
+        border-radius: 4px;
+       
+      }
+
+      .des_left{
+        width: 24rem;
+        height: 100vh;
+        background: transparent;
+        padding: 15px;
+        position: fixed;
+        top: 0;
+        left: -500px;
+        background: #fff;
+        z-index: 111111111;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s;
+      }
+      
+
+      .des_left_menu{
+        left: 0px;
+        opacity: 1;
+        visibility: visible;
+        overflow-y: auto;
+      }
+
+      .md-btd{
+        margin-bottom: 30px;
+        padding: 0px 15px;
+      }
+      .col_menu{
+        display: block;
+      }
+
+}
+
+
+
+
+
+
+@media screen and (max-width : 767px){
+    .headers{
+        padding: 0px 20px;
+    }
+
+    .logo h4 span{
+        display: none;
+    }
+    .plans_page_title p {
+        width: 100%;
+       
+    }
+
+    .inp_box_plans{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .inp_box_plans button{
+       
+        margin-left: 0px;
+        margin-top: 15px;
+      }
+
+    .icons{
+        left: 26px;
+    }
+    .btns-ss2 span{
+        display: none;
+    }
+
+    .right_side a i{
+        margin-right: 0px !important;
+    }
+    .icon_hedd2{
+        display: block;
+        border-right: none;
+        margin-right: 0px !important;
+    }
+
+    .ser_bar{
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+        padding: 10px;
+        background: #fff;
+        box-shadow: 0px 0px 30px rgba(43, 42, 42, 0.089);
+        z-index: -1111;
+        margin: 0px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+       
+
+    }
+
+    .ser_bar_23{
+        visibility: visible !important;
+        opacity: 1 !important;
+        top: 80px !important;
+        z-index: 1111;
+        
+      }
+   
+    .ser_bar input{
+        width: 100%;
+    }
+   
+    .icons{
+        position: absolute;
+        bottom: 20px;
+        left: 27px;
+      
+    }
+    .content-box{
+        padding: 0px 13px;
+    }
+    .icons ul{
+        display: flex;
+    }
+    .icons ul li{
+        margin-right: 20px;
+    }
+
+    .icons ul li a i{
+        font-size: 20px;
+    }
+    .content-box h1{
+        font-size: 56px;
+       
+    }
+
+    .top_list_content h5 {
+        font-size: 14px !important;
+    }
+    
+    .top_new_content p {
+      font-size: 14px;
+     
+    }
+    .login_box{
+        width: 100%;
+        height: auto;
+        padding: 50px  30px  70px 30px;
+    
+    }
+    .top_new_content h5{
+      font-size: 18px;
+    }
+    
+    .blog_view_container h4 {
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 24px;
+      margin-bottom: 20px;
+      color: #363636;
+    }
+    
+    .section_mar {
+      margin-top: 60px;
+    }
+    .section_mar2 {
+      margin-top: 40px;
+    }
+    .blog_view_container img{
+      width: 100%;
+    }
+
+
+    .event-clant_continer h4{
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+      }
+   
+      #dycalendar table tbody tr td{
+        height: 70px ;
+        background: rgba(255, 255, 255, 0.63);
+        border: 1px solid #dfdfdf65;
+        font-weight: 500;
+       }
+       
+
+       .des_left{
+        width: 100%;
+      }
+      
+   
+}
+
+
+@media screen and (max-width : 575px){
+    .self-Container::before{
+       width: 0%;
+    }
+    .content-box{
+        padding: 0px 13px;
+    }
+
+    .menu span{
+        background: #333333;
+    }
+
+    .textQuort h4{
+        font-size: 13px;
+        color: #4b4b4ba6;
+    }
+
+    .des_right22dx {
+      
+     margin-right: 20px !important;
+     margin-left: 20px !important;
+    }
+
+    .card_list_plan {
+     
+     padding : 20px !important
+    }
+
+  
+    .notfication_iconxdd{
+        right: -95px;
+    }
+    .btns-sdd{
+        left: 0px !important;
+    }
+    .drop_down2 {
+        visibility: visible;
+        opacity: 1;
+        left: 0px !important;
+        
+   
+    }
+    .content-box h6{
+        font-size: 13px; 
+    }
+   
+    
+    .content-box h1{
+        font-size: 58px;
+       
+    }
+    
+    .content-box p{
+        font-size: 14px;
+    }
+    
+    
+    .textQuort{
+        position: absolute;
+        bottom: 95px;;
+        right: -52px;
+        transform: rotate(90deg);
+       
+    }
+
+
+   
+
+    .content-box h6::before{
+       
+      
+        left: 130px;
+        width: 100px;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width : 415px){
+    .content-box h1{
+        font-size: 40px;
+       
+    }
+}
+/* 
+@media screen and (max-width : 360px){
+    .self-center_tes{
+      
+    }
+} */
